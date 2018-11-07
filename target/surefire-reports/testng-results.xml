@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="95" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+      <class name="basicMaven.Base2Test">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:basicMaven.Base2Test@5d5eef3d]" name="testOne" duration-ms="13" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:basicMaven.Base2Test@5d5eef3d]" name="testTwo" duration-ms="1" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- basicMaven.Base2Test -->
+      <class name="basicMaven.BaseTest">
+        <test-method status="PASS" signature="testFive()[pri:0, instance:basicMaven.BaseTest@56f4468b]" name="testFive" duration-ms="1" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method status="PASS" signature="testSix()[pri:0, instance:basicMaven.BaseTest@56f4468b]" name="testSix" duration-ms="0" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+      </class> <!-- basicMaven.BaseTest -->
+      <class name="basicMaven.Base3Test">
+        <test-method status="PASS" signature="testFour()[pri:0, instance:basicMaven.Base3Test@6cc4c815]" name="testFour" duration-ms="0" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:basicMaven.Base3Test@6cc4c815]" name="testThree" duration-ms="1" started-at="2018-11-04T15:37:18 AEDT" finished-at="2018-11-04T15:37:18 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- basicMaven.Base3Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

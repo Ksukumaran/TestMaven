@@ -11,7 +11,7 @@ public class Base3Test {
 		System.out.println("This runs before every method in Base3Test");
 	}
 	
-	@Test
+	@Test(groups= {"unitTest"})
 	public void testThree() {
 		System.out.println("testThree - Base3Test");
 	}

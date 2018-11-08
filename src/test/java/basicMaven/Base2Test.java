@@ -9,7 +9,7 @@ public class Base2Test {
 		System.out.println("testOne");
 	}
 	
-	@Test
+	@Test(groups= {"unitTest"})
 	public void testTwo() {
 		System.out.println("testTwo");
 	}

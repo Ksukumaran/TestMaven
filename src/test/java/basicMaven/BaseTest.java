@@ -23,7 +23,7 @@ public class BaseTest {
 		System.out.println("testFive");
 	}
 	
-	@Test
+	@Test(groups= {"unitTest"})
 	public void testSix() {
 		System.out.println("testSix");
 	}

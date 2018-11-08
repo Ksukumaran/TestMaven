@@ -1,5 +1,6 @@
 package basicMaven;
 
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -35,6 +36,11 @@ public class BaseTest {
 	@AfterTest
 	public void testAfter( ) {
 		System.out.println("Run AFTER Base test");
+	}
+	
+	@AfterSuite
+	public void testAfterSuite( ) {
+		System.out.println("Run AFTER Base test Suite");
 	}
 
 }

@@ -28,11 +28,6 @@ public class BaseTest {
 		System.out.println("testSix");
 	}
 	
-	@Test
-	public void testSeven() {
-		System.out.println("testSeven");
-	}
-	
 	@AfterTest
 	public void testAfter( ) {
 		System.out.println("Run AFTER Base test");

@@ -4,6 +4,7 @@
 
   <test name="Test">
   <parameter name="URL" value="www.google.com"/>
+  <parameter name="userName" value="admin"/>
     <classes>
       <class name="basicMaven.BaseTest"/>
       <class name="basicMaven.Base3Test"/>

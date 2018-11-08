@@ -19,11 +19,12 @@ public class BaseTest {
 		System.out.println("Run BEFORE Base test");
 	}
 	
-	@Parameters({"URL"})
+	@Parameters({"URL", "userName"})
 	@Test
-	public void testFive(String url) {
+	public void testFive(String url, String uname) {
 		System.out.println("testFive");
 		System.out.println("THis is the URL for the test 1 block" + url);
+		System.out.println("THis is the userName for the test 1 block" + uname);
 	}
 	
 	@Test(groups= {"unitTest"})

@@ -6,7 +6,7 @@ public class Base2Test {
 	
 	@Test
 	public void testOne() {
-		System.out.println("test111111");
+		System.out.println("testOne");
 	}
 	
 	@Test

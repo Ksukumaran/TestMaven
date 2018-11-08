@@ -15,12 +15,12 @@ public class BaseTest {
 	
 	@BeforeTest
 	public void testBefore( ) {
-		System.out.println("Run BEFORE every other test");
+		System.out.println("Run BEFORE Base test");
 	}
 	
 	@Test
 	public void testFive() {
-		System.out.println("testFive5555");
+		System.out.println("testFive");
 	}
 	
 	@Test

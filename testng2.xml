@@ -10,7 +10,7 @@
     <classes>
       <class name="basicMaven.Base3Test"/>
       <class name="basicMaven.BaseTest"/>
-      <class name="basicMaven.BaseTest"/>
+      <class name="basicMaven.Base2Test"/>
     </classes>
   </test>
 </suite> 

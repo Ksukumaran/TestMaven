@@ -29,9 +29,10 @@ public class BaseTest {
 	
 	@Parameters({"URL", "userName"})
 	@Test(groups= {"unitTest"})
-	public void testSix(String url) {
+	public void testSix(String url, String uname) {
 		System.out.println("testSix");
 		System.out.println("THis is the URL for the test 1 block" + url);
+		System.out.println("THis is the userName for the test 1 block" + uname);
 	}
 	
 	@Test

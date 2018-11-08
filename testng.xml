@@ -3,6 +3,7 @@
 <suite name="Suite">
 
   <test name="Test">
+  <parameter name="URL" value="www.google.com"/>
     <classes>
       <class name="basicMaven.BaseTest"/>
       <class name="basicMaven.Base3Test"/>
@@ -11,6 +12,7 @@
   
   
   <test name="Round Two">
+  <parameter name="URL" value="www.msn.com"/>
   	<classes>
       <class name="basicMaven.Base2Test">
       	<methods>

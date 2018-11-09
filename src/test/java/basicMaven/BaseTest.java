@@ -21,7 +21,7 @@ public class BaseTest {
 	}
 	
 	@Parameters({"URL", "userName"})
-	@Test
+	@Test(groups = {"unitTest"})
 	public void testFive(String url, String uname) {
 		System.out.println("testFive");
 		System.out.println("THis is the URL for the test 1 block" + url);
@@ -30,7 +30,7 @@ public class BaseTest {
 	
 	@DataProvider
 	@Parameters({"URL", "userName"})
-	@Test(groups= {"unitTest"})
+	@Test(dataProvider= "dataProvider")
 	public void testSix(String url, String uname, String userN, String Psswd) {
 		System.out.println("testSix");
 		System.out.println("THis is the URL for the test 1 block" + url);
@@ -39,8 +39,8 @@ public class BaseTest {
 		System.out.println("The Pwd is: " + Psswd);
 	}
 	
-	@DataProvider
-	@Test
+	
+	@Test(dataProvider= "dataProvider")
 	public void testSeven(String uname, String pwd) {
 		System.out.println("testSeven");
 		System.out.println("The Username is: " + uname);

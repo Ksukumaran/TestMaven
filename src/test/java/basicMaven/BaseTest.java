@@ -29,12 +29,12 @@ public class BaseTest {
 	}
 	
 	
-	@Parameters({"URL", "userName"})
+//	@Parameters({"URL", "userName"})
 	@Test(dataProvider= "dataProvider")
-	public void testSix(String url, String uname, String userN, String Psswd) {
+	public void testSix(String userN, String Psswd) {
 		System.out.println("testSix");
-		System.out.println("THis is the URL for the test 1 block" + url);
-		System.out.println("THis is the userName for the test 1 block" + uname);
+//		System.out.println("THis is the URL for the test 1 block" + url);
+//		System.out.println("THis is the userName for the test 1 block" + uname);
 		System.out.println("The Username is: " + userN);
 		System.out.println("The Pwd is: " + Psswd);
 	}

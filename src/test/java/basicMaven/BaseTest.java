@@ -28,7 +28,7 @@ public class BaseTest {
 		System.out.println("THis is the userName for the test 1 block" + uname);
 	}
 	
-	@DataProvider
+	
 	@Parameters({"URL", "userName"})
 	@Test(dataProvider= "dataProvider")
 	public void testSix(String url, String uname, String userN, String Psswd) {

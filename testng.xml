@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 	<listeners>
-		<listener class-name="main/java/basicMaven.Listeners" />
+		<listener class-name="basicMaven.Listener" />
 	</listeners>
 
   <test name="Test">

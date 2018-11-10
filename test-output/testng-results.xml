@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="283" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+    <groups>
+      <group name="unitTest">
+        <method signature="Base3Test.testThree()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="testThree" class="basicMaven.Base3Test"/>
+        <method signature="BaseTest.testFive(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testFive" class="basicMaven.BaseTest"/>
+        <method signature="Base2Test.testTwo(java.lang.String)[pri:0, instance:basicMaven.Base2Test@14bf9759]" name="testTwo" class="basicMaven.Base2Test"/>
+      </group> <!-- unitTest -->
+    </groups>
+    <test name="Test" duration-ms="178" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+      <class name="basicMaven.BaseTest">
+        <test-method status="PASS" signature="testBefore()[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testBefore" is-config="true" duration-ms="0" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBefore -->
+        <test-method status="PASS" signature="testFive(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testFive" duration-ms="15" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.google.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method status="PASS" signature="testSeven(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSeven" duration-ms="3" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pword-One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeven -->
+        <test-method status="PASS" signature="testSeven(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSeven" duration-ms="1" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname-Two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pword-Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeven -->
+        <test-method status="PASS" signature="testSeven(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSeven" duration-ms="4" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname-Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pword-Three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeven -->
+        <test-method status="PASS" signature="testSix(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSix" duration-ms="3" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pword-One]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+        <test-method status="PASS" signature="testSix(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSix" duration-ms="3" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname-Two]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pword-Two]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+        <test-method status="PASS" signature="testSix(java.lang.String, java.lang.String)[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testSix" duration-ms="4" started-at="2018-11-10T03:35:57Z" data-provider="dataProvider" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uname-Three]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pword-Three]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+        <test-method status="PASS" signature="testAfter()[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testAfter" is-config="true" duration-ms="2" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfter -->
+      </class> <!-- basicMaven.BaseTest -->
+      <class name="basicMaven.Base3Test">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFour()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="testFour" duration-ms="4" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="testThree" duration-ms="2" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:basicMaven.Base3Test@1e88b3c]" name="afterMethod" is-config="true" duration-ms="1" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- basicMaven.Base3Test -->
+    </test> <!-- Test -->
+    <test name="Round Two" duration-ms="8" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+      <class name="basicMaven.Base2Test">
+        <test-method status="PASS" signature="testOne()[pri:0, instance:basicMaven.Base2Test@14bf9759]" name="testOne" duration-ms="2" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="testTwo(java.lang.String)[pri:0, instance:basicMaven.Base2Test@14bf9759]" name="testTwo" duration-ms="1" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.msn.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+      </class> <!-- basicMaven.Base2Test -->
+      <class name="basicMaven.BaseTest">
+        <test-method status="PASS" signature="testBeforeSuite()[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testBeforeSuite" is-config="true" duration-ms="41" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method status="PASS" signature="testAfterSuite()[pri:0, instance:basicMaven.BaseTest@77caeb3e]" name="testAfterSuite" is-config="true" duration-ms="1" started-at="2018-11-10T03:35:57Z" finished-at="2018-11-10T03:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- basicMaven.BaseTest -->
+    </test> <!-- Round Two -->
+  </suite> <!-- Suite -->
+</testng-results>

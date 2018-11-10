@@ -22,9 +22,9 @@ public class Listeners implements ITestListener {
 	    
 	 }
 
-	 public void onTestFailure(ITestResult arg0) {
+	 public void onTestFailure(ITestResult result) {
 	// write the logging code here which will be executed on test failure
-	  	  
+	  	  System.out.println("Test fAILED " + result.getName() + " " + ITestResult.FAILURE);
 	 }
 
 	 public void onTestSkipped(ITestResult arg0) {
@@ -37,8 +37,8 @@ public class Listeners implements ITestListener {
 	  	  
 	 }
 
-	 public void onTestSuccess(ITestResult arg0) {
+	 public void onTestSuccess(ITestResult result) {
 	// write the logging code here which will be executed on test success
-		  System.out.println("TEST successfully EXECUTED");
+		  System.out.println("TEST successfully EXECUTED: " + result.getName() + " " +  result.getInstanceName());
 	 }
 }

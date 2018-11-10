@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="basicMaven.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="userName" value="admin"/>
+    <parameter name="URL" value="www.google.com"/>
+    <classes>
+      <class name="basicMaven.BaseTest">
+        <methods>
+          <include name="testAfterSuite"/>
+          <include name="testFive" invocation-numbers="0"/>
+          <include name="testAfter"/>
+          <include name="testBefore"/>
+          <include name="testBeforeSuite"/>
+        </methods>
+      </class> <!-- basicMaven.BaseTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

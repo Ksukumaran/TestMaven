@@ -1,5 +1,6 @@
 package basicMaven;
 
+import org.testng.Assert;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -26,6 +27,7 @@ public class BaseTest {
 		System.out.println("testFive");
 		System.out.println("THis is the URL for the test 1 block" + url);
 		System.out.println("THis is the userName for the test 1 block" + uname);
+		Assert.assertTrue(false);
 	}
 	
 	

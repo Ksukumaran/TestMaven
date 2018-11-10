@@ -27,7 +27,7 @@ public class Base2Test {
 		System.out.println("This is the URL for the Test Block 2" + url);
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void Login() throws IOException {
 		 Properties prop = new Properties();
 		 FileInputStream fis = new FileInputStream("C:\\Selenium\\selenium-workspace\\testMaven\\src\\test\\java\\basicMaven\\datadriver.properties");

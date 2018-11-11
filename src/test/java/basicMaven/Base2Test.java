@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import org.apache.logging.log4j.LogManager;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -14,10 +15,12 @@ import org.testng.annotations.Test;
 
 public class Base2Test {
 	public WebDriver driver = null;
+	private static org.apache.logging.log4j.Logger log = LogManager.getLogger(BaseTest.class.getName());
 	
 	@Test
 	public void testOne() {
 		System.out.println("testOne");
+		log.debug("Basic run of TestOne block");
 	}
 	
 	@Parameters({"URL"})
@@ -25,6 +28,7 @@ public class Base2Test {
 	public void testTwo(String url) {
 		System.out.println("testTwo");
 		System.out.println("This is the URL for the Test Block 2" + url);
+		log.info("URL retrieved from xml params " + url);
 	}
 	
 	@Test(enabled=false)

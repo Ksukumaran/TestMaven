@@ -17,12 +17,12 @@
   
   <test name="Round Two">
   <parameter name="URL" value="www.msn.com"/>
-  	<classes>
+   <classes>
       <class name="basicMaven.Base2Test">
       	<methods>
       	</methods>
       </class>
-     </classes>
+    </classes>
   </test>
   
 </suite> <!-- Suite -->

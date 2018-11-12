@@ -1,3 +1,7 @@
-21:54:54.972 [main] DEBUG basicMaven.BaseTest - Basic run of TestOne block
-21:54:54.988 [main] INFO  basicMaven.BaseTest - URL retrieved from xml params www.msn.com
-21:54:55.010 [main] INFO  basicMaven.BaseTest - THis block ran after the entire test suite
+22:03:51.801 [main] INFO  basicMaven.BaseTest - Test Passed
+22:03:51.820 [main] INFO  basicMaven.BaseTest - Test Passed
+22:03:51.828 [main] INFO  basicMaven.BaseTest - Test Passed
+22:03:51.864 [main] INFO  basicMaven.BaseTest - Running after the Base Test Class
+22:03:51.912 [main] DEBUG basicMaven.BaseTest - Basic run of TestOne block
+22:03:51.918 [main] INFO  basicMaven.BaseTest - URL retrieved from xml params www.msn.com
+22:03:51.962 [main] INFO  basicMaven.BaseTest - THis block ran after the entire test suite

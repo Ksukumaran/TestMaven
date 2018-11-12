@@ -4,7 +4,7 @@ import org.apache.logging.log4j.*;
 
 public class Logger {
 	
-	public static org.apache.logging.log4j.Logger log = LogManager.getLogger(Logger.class.getName());
+	private static org.apache.logging.log4j.Logger log = LogManager.getLogger(Logger.class.getName());
 	
 	public static void main(String[] args) {
 		log.debug("THis is a debug message");

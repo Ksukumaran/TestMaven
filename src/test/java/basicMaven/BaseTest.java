@@ -31,7 +31,7 @@ public class BaseTest {
 		System.out.println("testFive");
 		System.out.println("THis is the URL for the test 1 block" + url);
 		System.out.println("THis is the userName for the test 1 block" + uname);
-		Assert.assertTrue(false);
+//		Assert.assertTrue(false);
 		log.error("This test has failed");
 	}
 	

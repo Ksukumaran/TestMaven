@@ -5,7 +5,7 @@
     <classes>
       <class name="basicMaven.Base2Test">
         <methods>
-          <include name="Login"/>
+          <include name="testTwo"/>
         </methods>
       </class> <!-- basicMaven.Base2Test -->
     </classes>

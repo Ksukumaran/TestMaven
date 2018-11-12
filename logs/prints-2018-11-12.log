@@ -1,0 +1,8 @@
+21:54:54.815 [main] ERROR basicMaven.BaseTest - This test has failed
+21:54:54.850 [main] DEBUG basicMaven.BaseTest - data Provider params retrieved
+21:54:54.854 [main] DEBUG basicMaven.BaseTest - data Provider params retrieved
+21:54:54.859 [main] DEBUG basicMaven.BaseTest - data Provider params retrieved
+21:54:54.864 [main] INFO  basicMaven.BaseTest - Test Passed
+21:54:54.868 [main] INFO  basicMaven.BaseTest - Test Passed
+21:54:54.873 [main] INFO  basicMaven.BaseTest - Test Passed
+21:54:54.919 [main] INFO  basicMaven.BaseTest - Running after the Base Test Class

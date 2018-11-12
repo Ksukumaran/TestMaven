@@ -1,0 +1,3 @@
+21:54:54.972 [main] DEBUG basicMaven.BaseTest - Basic run of TestOne block
+21:54:54.988 [main] INFO  basicMaven.BaseTest - URL retrieved from xml params www.msn.com
+21:54:55.010 [main] INFO  basicMaven.BaseTest - THis block ran after the entire test suite
